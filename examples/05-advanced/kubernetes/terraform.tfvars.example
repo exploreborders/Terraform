@@ -1,0 +1,13 @@
+aws_region = "us-east-1"
+environment = "dev"
+cluster_name = "terraform-learning-eks"
+kubernetes_version = "1.28"
+vpc_cidr = "10.0.0.0/16"
+public_subnet_cidrs = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]
+private_subnet_cidrs = ["10.0.10.0/24", "10.0.11.0/24", "10.0.12.0/24"]
+create_nat_gateway = true
+cluster_endpoint_public_access_cidrs = ["YOUR_IP_ADDRESS/32"]  # Restrict in production
+node_instance_types = ["t3.medium"]
+node_desired_size = 2
+node_max_size = 5
+node_min_size = 1
