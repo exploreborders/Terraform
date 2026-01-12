@@ -1,0 +1,10 @@
+# Example variable values for remote backend example
+# Copy this file to terraform.tfvars and update the values
+
+aws_region = "us-east-1"
+environment = "dev"
+state_bucket_name = "your-terraform-state-bucket-20241212"  # Must be globally unique
+lock_table_name = "terraform-state-lock"
+example_bucket_name = "your-example-bucket-20241212"  # Must be globally unique
+create_state_bucket = false  # Set to true if not using setup script
+create_lock_table = false    # Set to true if not using setup script
