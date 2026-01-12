@@ -1,0 +1,13 @@
+aws_region = "us-east-1"
+environment = "dev"
+vpc_id = "vpc-xxxxxxxxxxxxxxxxx"  # Replace with actual VPC ID from vpc-network example
+allowed_security_groups = []
+db_instance_class = "db.t3.micro"
+db_name = "terraformdb"
+db_username = "terraform"
+db_password = "your_secure_password_here"  # Change this!
+allocated_storage = 20
+max_allocated_storage = 50
+multi_az = false
+backup_retention_period = 7
+deletion_protection = false

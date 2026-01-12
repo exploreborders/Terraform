@@ -1,0 +1,9 @@
+# Example variable values for EC2 instance example
+# Copy this file to terraform.tfvars and update the values
+
+aws_region = "us-east-1"
+instance_type = "t2.micro"
+instance_name = "terraform-learning-instance"
+allowed_ssh_cidrs = ["YOUR_IP_ADDRESS/32"]  # Replace with your actual IP for security
+key_pair_name = "your-key-pair-name"        # Optional: your AWS key pair name
+environment = "dev"

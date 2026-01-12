@@ -1,0 +1,6 @@
+# Example variable values
+# Copy this file to terraform.tfvars and update the values
+
+name = "Terraform Learner"
+secret_value = "my_secret_password"
+environment = "dev"
